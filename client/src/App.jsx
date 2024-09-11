@@ -8,7 +8,7 @@ import Overview from './components/Overview';
 const App = () => {
   return (
     <Router>
-      <div className="flex flex-col h-screen">
+      <div className="flex flex-col h-screen w-screen">
         <Navbar />
         <div className="flex flex-1">
           <Sidebar />

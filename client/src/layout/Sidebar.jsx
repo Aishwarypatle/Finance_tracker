@@ -7,9 +7,9 @@ const Sidebar = () => {
       <ul className="space-y-4">
         <li><Link to="/" className="text-lg hover:text-gray-300">Dashboard</Link></li>
         <li><Link to="/overview" className="text-lg hover:text-gray-300">Income</Link></li>
-        <li><Link to="/overview" className="text-lg hover:text-gray-300">Expense</Link></li>
-        <li><Link to="/overview" className="text-lg hover:text-gray-300">Budgets</Link></li>
-        <li><Link to="/overview" className="text-lg hover:text-gray-300">Reports</Link></li>
+        <li><Link to="/" className="text-lg hover:text-gray-300">Expense</Link></li>
+        <li><Link to="/" className="text-lg hover:text-gray-300">Budgets</Link></li>
+        <li><Link to="/" className="text-lg hover:text-gray-300">Reports</Link></li>
       </ul>
     </div>
   );
